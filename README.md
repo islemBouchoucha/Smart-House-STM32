@@ -82,7 +82,7 @@ Smart-House/
 
 ### STM32
 1. Suis `docs/configuration_cubemx.md` pour créer le projet et intégrer `app.h` / `app.c`.
-2. Compile et flashe (STM32CubeIDE ou Keil MDK-ARM).
+2. Compile et flashe ( Keil MDK-ARM).
 
 ### ESP32
 1. Copie `secrets.h.example` en `secrets.h` et renseigne ton Wi-Fi.
@@ -96,12 +96,7 @@ Relie les cartes selon le câblage, puis ouvre `http://<adresse-ip-esp32>` dans 
 
 Tous les seuils sont dans `app.h` : température de déclenchement du ventilateur, seuil d'alarme gaz, angles du servo, niveau actif des relais (`OUTPUT_ACTIVE_LEVEL`).
 
-## Limites et perspectives
 
-- Pas d'authentification sur l'interface web (à n'utiliser que sur un réseau de confiance)
-- Pas d'historique des mesures
-- Le seuil gaz doit être calibré avec ton capteur MQ-2 (préchauffage de quelques minutes requis)
-- Pistes : authentification, historique, notifications, MQTT
 
 ## Statut
 
