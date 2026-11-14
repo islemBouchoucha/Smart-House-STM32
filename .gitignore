@@ -1,0 +1,13 @@
+# Secrets Wi-Fi
+secrets.h
+# Builds
+build/
+Debug/
+Release/
+*.o
+*.elf
+*.bin
+*.hex
+# IDE
+.vscode/
+.idea/
